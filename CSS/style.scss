@@ -1,4 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: black;
     color: azure;
 }
+
+a,ul,li{
+    color: azure;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.estilo__logo{
+    width: 200px;
+    height: 200px;
+}
+
+.iconos__redes{
+    width: 20px;
+    height: 20px;
+}
+
