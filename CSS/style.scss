@@ -2,25 +2,25 @@
     margin: 0px;
     padding: 0px;
 }
-
-body{
+body {
     background-color: black;
     color: azure;
 }
-
-a,ul,li{
+a, ul, li {
     color: azure;
     text-decoration: none;
     list-style-type: none;
 }
-
-.estilo__logo{
-    width: 200px;
-    height: 200px;
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
-.iconos__redes{
+.estilo__logo {
+    width: 100px;
+    height: 100px;
+}
+.iconos__redes {
     width: 20px;
     height: 20px;
 }
-
