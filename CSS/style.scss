@@ -27,37 +27,50 @@ a, ul, li {
 .grilla{
     display: grid;
     grid-template-areas:
-                        "carousel carousel carousel"
                         "quienes quienes quienes"
                         "recetas recetas servicios"
                         "informacion contacto contacto"
                         "material contacto contacto";
 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 20% 20% 20%;
     grid-gap: 10px;
     height: 100vh;
 }
 
-.carousel{
-    grid-area: carousel;
-    text-align: center;
-}
 .quienes{
     grid-area: quienes;
+    background-color: rgb(211, 78, 78);
+    margin: 10px;
+    text-align: center;
 }
 .recetas{
     grid-area: recetas;
+    background-color: rgb(211, 78, 78);
+    margin: 10px;
+    text-align: center;
 }
 .servicios{
     grid-area: servicios;
+    background-color: rgb(211, 78, 78);
+    margin: 10px;
+    text-align: center;
 }
 .contacto{
     grid-area: contacto;
+    background-color: rgb(211, 78, 78);
+    margin: 10px;
+    text-align: center;
 }
 .material{
     grid-area: material;
+    background-color: rgb(211, 78, 78);
+    margin: 10px;
+    text-align: center;
 }
 .informacion{
     grid-area: informacion;
+    background-color: rgb(211, 78, 78);
+    margin: 10px;
+    text-align: center;
 }
