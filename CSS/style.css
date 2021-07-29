@@ -36,4 +36,64 @@ a, ul, li {
   width: 20px;
   height: 20px;
 }
+
+.grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "carousel carousel carousel" "quienes quienes quienes" "recetas recetas servicios" "informacion contacto contacto" "material contacto contacto";
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 20% 20% 20% 20% 20%;
+      grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.carousel {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: carousel;
+  text-align: center;
+}
+
+.quienes {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: quienes;
+}
+
+.recetas {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: recetas;
+}
+
+.servicios {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: servicios;
+}
+
+.contacto {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: contacto;
+}
+
+.material {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: material;
+}
+
+.informacion {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: informacion;
+}
 /*# sourceMappingURL=style.css.map */

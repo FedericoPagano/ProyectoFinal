@@ -24,3 +24,40 @@ a, ul, li {
     width: 20px;
     height: 20px;
 }
+.grilla{
+    display: grid;
+    grid-template-areas:
+                        "carousel carousel carousel"
+                        "quienes quienes quienes"
+                        "recetas recetas servicios"
+                        "informacion contacto contacto"
+                        "material contacto contacto";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+.carousel{
+    grid-area: carousel;
+    text-align: center;
+}
+.quienes{
+    grid-area: quienes;
+}
+.recetas{
+    grid-area: recetas;
+}
+.servicios{
+    grid-area: servicios;
+}
+.contacto{
+    grid-area: contacto;
+}
+.material{
+    grid-area: material;
+}
+.informacion{
+    grid-area: informacion;
+}
