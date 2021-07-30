@@ -16,6 +16,11 @@ a, ul, li {
     flex-direction: row;
     justify-content: space-between;
 }
+.estilo__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .estilo__logo {
     width: 100px;
     height: 100px;
@@ -23,6 +28,10 @@ a, ul, li {
 .iconos__redes {
     width: 20px;
     height: 20px;
+}
+.estilo__redes{
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
 }
 .grilla{
     display: grid;
@@ -42,35 +51,49 @@ a, ul, li {
     grid-area: quienes;
     background-color: rgb(211, 78, 78);
     margin: 10px;
-    text-align: center;
 }
 .recetas{
     grid-area: recetas;
     background-color: rgb(211, 78, 78);
     margin: 10px;
-    text-align: center;
 }
 .servicios{
     grid-area: servicios;
     background-color: rgb(211, 78, 78);
     margin: 10px;
-    text-align: center;
 }
 .contacto{
     grid-area: contacto;
     background-color: rgb(211, 78, 78);
     margin: 10px;
-    text-align: center;
 }
 .material{
     grid-area: material;
     background-color: rgb(211, 78, 78);
     margin: 10px;
-    text-align: center;
 }
 .informacion{
     grid-area: informacion;
     background-color: rgb(211, 78, 78);
     margin: 10px;
+}
+h3{
     text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 3px;
 }
