@@ -82,6 +82,7 @@ a, ul, li {
   grid-area: quienes;
   background-color: #d34e4e;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .recetas {
@@ -91,6 +92,7 @@ a, ul, li {
   grid-area: recetas;
   background-color: #d34e4e;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .servicios {
@@ -99,6 +101,7 @@ a, ul, li {
   grid-area: servicios;
   background-color: #d34e4e;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .contacto {
@@ -109,6 +112,7 @@ a, ul, li {
   grid-area: contacto;
   background-color: #d34e4e;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .material {
@@ -117,6 +121,7 @@ a, ul, li {
   grid-area: material;
   background-color: #d34e4e;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .informacion {
@@ -125,6 +130,7 @@ a, ul, li {
   grid-area: informacion;
   background-color: #d34e4e;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .footer {
@@ -164,11 +170,6 @@ h1 {
   height: 170px;
 }
 
-.carousel__texto {
-  font-family: 'Amatic SC', cursive;
-  color: azure;
-}
-
 .nav__diseno {
   background: #360033;
   /* fallback for old browsers */
@@ -178,9 +179,11 @@ h1 {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
+  border-radius: 20px;
 }
 
 nav li a:hover {
   background-color: white;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=style.css.map */

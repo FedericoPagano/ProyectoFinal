@@ -4,6 +4,7 @@
 }
 $backsection: rgb(211, 78, 78);
 $marginsection: 10px; 
+$bordessection: 20px;
 
 body {
     background-color: black;
@@ -61,31 +62,37 @@ a, ul, li {
     grid-area: quienes;
     background-color: $backsection;
     margin: $marginsection;
+    border-radius: $bordessection
 }
 .recetas{
     grid-area: recetas;
     background-color: $backsection;
     margin: $marginsection;
+    border-radius: $bordessection
 }
 .servicios{
     grid-area: servicios;
     background-color: $backsection;
     margin: $marginsection;
+    border-radius: $bordessection
 }
 .contacto{
     grid-area: contacto;
     background-color: $backsection;
     margin: $marginsection;
+    border-radius: $bordessection
 }
 .material{
     grid-area: material;
     background-color: $backsection;
     margin: $marginsection;
+    border-radius: $bordessection
 }
 .informacion{
     grid-area: informacion;
     background-color: $backsection;
     margin: $marginsection;
+    border-radius: $bordessection
 }
 .footer{
     grid-area: footer;
@@ -115,16 +122,15 @@ h1{
     width: 100%;
     height: 170px;
 }
-.carousel__texto{
-    font-family: 'Amatic SC', cursive;
-}
 .nav__diseno{
     background: #360033;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
+    border-radius: $bordessection
 }
 nav li a:hover {
     background-color: white;
+    border-radius: $bordessection
 }
