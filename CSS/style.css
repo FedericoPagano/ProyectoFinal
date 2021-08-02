@@ -83,6 +83,9 @@ a, ul, li {
   background-color: #d34e4e;
   margin: 10px;
   border-radius: 20px;
+  border: 1px solid;
+  -webkit-box-shadow: 5px 5px #401a5f;
+          box-shadow: 5px 5px #401a5f;
 }
 
 .recetas {

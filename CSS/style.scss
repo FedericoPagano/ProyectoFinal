@@ -62,7 +62,9 @@ a, ul, li {
     grid-area: quienes;
     background-color: $backsection;
     margin: $marginsection;
-    border-radius: $bordessection
+    border-radius: $bordessection;
+    border: 1px solid;
+    box-shadow: 5px 5px #401a5f;
 }
 .recetas{
     grid-area: recetas;
@@ -80,7 +82,7 @@ a, ul, li {
     grid-area: contacto;
     background-color: $backsection;
     margin: $marginsection;
-    border-radius: $bordessection
+    border-radius: $bordessection;
 }
 .material{
     grid-area: material;
