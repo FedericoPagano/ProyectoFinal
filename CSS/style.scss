@@ -7,6 +7,14 @@ $backsection: rgb(211, 78, 78);
 $marginsection: 10px; 
 $bordessection: 20px;
 
+@mixin section {
+    background-color: $backsection;
+    margin: $marginsection;
+    border-radius: $bordessection;
+    border: 1px solid;
+    box-shadow: 5px 5px #401a5f;       
+}
+
 body {
     background-color: black;
     color: azure;
@@ -69,37 +77,27 @@ a, ul, li {
 }
 .recetas{
     grid-area: recetas;
-    background-color: $backsection;
-    margin: $marginsection;
-    border-radius: $bordessection
+    @include section;
 }
 .servicios{
     grid-area: servicios;
-    background-color: $backsection;
-    margin: $marginsection;
-    border-radius: $bordessection
+    @include section;
 }
 .contacto{
     grid-area: contacto;
-    background-color: $backsection;
-    margin: $marginsection;
-    border-radius: $bordessection;
+    @include section;
 }
 .material{
     grid-area: material;
-    background-color: $backsection;
-    margin: $marginsection;
-    border-radius: $bordessection
+    @include section;
 }
 .informacion{
     grid-area: informacion;
-    background-color: $backsection;
-    margin: $marginsection;
-    border-radius: $bordessection
+    @include section;
 }
 .footer{
     grid-area: footer;
-    margin: $marginsection
+    @include section;
 }
 h3{
     text-align: center;
