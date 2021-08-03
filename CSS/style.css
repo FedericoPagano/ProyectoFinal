@@ -174,11 +174,11 @@ h1 {
 }
 
 .nav__diseno {
-  background: #360033;
+  background: #833ab4;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#0b8793), to(#360033));
-  background: linear-gradient(to right, #0b8793, #360033);
+  background: -webkit-gradient(linear, left top, right top, from(#fcb045), color-stop(#fd1d1d), to(#833ab4));
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;

@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 $backsection: rgb(211, 78, 78);
 $marginsection: 10px; 
 $bordessection: 20px;
@@ -125,9 +126,9 @@ h1{
     height: 170px;
 }
 .nav__diseno{
-    background: #360033;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
     border-radius: $bordessection
