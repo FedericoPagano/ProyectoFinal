@@ -227,8 +227,8 @@ nav li a:hover {
 @media screen and (max-width: 576px) {
   .grilla {
         grid-template-areas: "quienes quienes" "recetas recetas" "servicios servicios" "informacion informacion" "contacto contacto" "material material" "footer footer";
-    -ms-grid-rows: 20% 20% 20% 20% 20% 20%;
-        grid-template-rows: 20% 20% 20% 20% 20% 20%;
+    -ms-grid-rows: 20% 20% 20% 20% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20% 20% 20% 20%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;
