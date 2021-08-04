@@ -67,13 +67,23 @@ a, ul, li {
     margin: $marginsection;
 }
 
+div{
+    h5{
+        text-transform: uppercase;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing: 3px;
+        font-size: 2em;
+    }
+    p{
+        text-transform: uppercase;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing: 3px;
+        font-size: 1em;
+    }
+}
 .quienes{
     grid-area: quienes;
-    background-color: $backsection;
-    margin: $marginsection;
-    border-radius: $bordessection;
-    border: 1px solid;
-    box-shadow: 5px 5px #401a5f;
+    @include section;
 }
 .recetas{
     grid-area: recetas;

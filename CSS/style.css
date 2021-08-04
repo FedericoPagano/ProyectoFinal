@@ -75,6 +75,20 @@ a, ul, li {
   margin: 10px;
 }
 
+div h5 {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  font-size: 2em;
+}
+
+div p {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  font-size: 1em;
+}
+
 .quienes {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
