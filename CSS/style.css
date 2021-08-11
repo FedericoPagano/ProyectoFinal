@@ -230,6 +230,11 @@ nav li a:hover {
   border-radius: 20px;
 }
 
+nav div a:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 576px) {
   .grilla {
         grid-template-areas: "quienes quienes" "recetas recetas" "servicios servicios" "informacion informacion" "contacto contacto" "material material" "footer footer";

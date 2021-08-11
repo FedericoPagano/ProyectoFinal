@@ -150,6 +150,10 @@ nav li a:hover {
     background-color: white;
     border-radius: $bordessection
 }
+nav div a:hover {
+    background-color: white;
+    border-radius: $bordessection
+}
 
 @media screen and (max-width:576px) {
     .grilla {
