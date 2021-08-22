@@ -46,6 +46,8 @@ a, ul, li {
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
 }
+
+// grid index
 .grilla{
     display: grid;
     grid-template-areas:
@@ -180,4 +182,30 @@ nav div a:hover {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
+}
+
+// // grid recetas
+// .grilla__recetas{
+//     display: grid;
+//     grid-template-areas:
+//                         "video video video"
+//                         "footer footer footer";
+
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-rows: 30% 30% 20% 20% 20% 10%;
+//     grid-gap: 10px;
+//     height: 100vh;
+// }
+.recetas__diseno{
+    background-color: rgb(90, 109, 78);
+    section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+iframe{
+    border: 1px solid ;
+    border-radius: 10px;
+    margin: 20px;
 }

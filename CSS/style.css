@@ -262,4 +262,27 @@ nav div a:hover {
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
 }
+
+.recetas__diseno {
+  background-color: #5a6d4e;
+}
+
+.recetas__diseno section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+iframe {
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 20px;
+}
 /*# sourceMappingURL=style.css.map */
