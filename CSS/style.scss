@@ -173,7 +173,18 @@ nav div a:hover {
         grid-column-gap: 10px;
         margin: 0;
     }
+    .cuadro__servicios{
+    @include section;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
 }
+}
+
+
 .cuadro__servicios{
     @include section;
     font-family: 'Amatic SC', cursive;
@@ -184,28 +195,36 @@ nav div a:hover {
     letter-spacing: 3px;
 }
 
-// // grid recetas
-// .grilla__recetas{
-//     display: grid;
-//     grid-template-areas:
-//                         "video video video"
-//                         "footer footer footer";
 
-//     grid-template-columns: 1fr 1fr 1fr;
-//     grid-template-rows: 30% 30% 20% 20% 20% 10%;
-//     grid-gap: 10px;
-//     height: 100vh;
-// }
 .recetas__diseno{
     background-color: rgb(90, 109, 78);
-    section{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 2em;
+    margin: 20px;
+}
+p{
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 1em;
+    margin: 20px;
+}
+div{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
+    display:inline-block;
+    align-items: center;
 }
 iframe{
     border: 1px solid ;
     border-radius: 10px;
     margin: 20px;
+}
 }

@@ -246,6 +246,20 @@ nav div a:hover {
     grid-column-gap: 10px;
     margin: 0;
   }
+  .cuadro__servicios {
+    background-color: #d34e4e;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    -webkit-box-shadow: 5px 5px #401a5f;
+            box-shadow: 5px 5px #401a5f;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+  }
 }
 
 .cuadro__servicios {
@@ -265,9 +279,28 @@ nav div a:hover {
 
 .recetas__diseno {
   background-color: #5a6d4e;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.recetas__diseno section {
+.recetas__diseno h2 {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  font-size: 2em;
+  margin: 20px;
+}
+
+.recetas__diseno p {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  font-size: 1em;
+  margin: 20px;
+}
+
+.recetas__diseno div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,12 +308,13 @@ nav div a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-iframe {
+.recetas__diseno iframe {
   border: 1px solid;
   border-radius: 10px;
   margin: 20px;
