@@ -47,6 +47,10 @@ a, ul, li {
     letter-spacing: 3px;
 }
 
+form{
+    margin: 20px;
+}
+
 // grid index
 .grilla{
     display: grid;
@@ -55,7 +59,7 @@ a, ul, li {
                         "quienes quienes quienes"
                         "recetas recetas servicios"
                         "informacion contacto contacto"
-                        "material contacto contacto"
+                        "informacion contacto contacto"
                         "footer footer footer";
 
     grid-template-columns: 1fr 1fr 1fr;
@@ -99,10 +103,7 @@ div{
     grid-area: contacto;
     @include section;
 }
-.material{
-    grid-area: material;
-    @include section;
-}
+
 .informacion{
     grid-area: informacion;
     @include section;
@@ -165,7 +166,6 @@ nav div a:hover {
         "servicios servicios"
         "informacion informacion"
         "contacto contacto"
-        "material material"
         "footer footer";
         grid-template-rows: 20% 20% 20% 20% 20% 20% 20%;
         grid-template-columns: 1fr 1fr;
