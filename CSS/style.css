@@ -260,6 +260,13 @@ nav div a:hover {
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
   }
+  h1 {
+    font-size: 2em;
+  }
+  iframe {
+    width: 260px;
+    height: 146px;
+  }
 }
 
 .cuadro__servicios {
@@ -309,15 +316,11 @@ nav div a:hover {
       -ms-flex-direction: row;
           flex-direction: row;
   display: inline-block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .recetas__diseno iframe {
   border: 1px solid;
   border-radius: 10px;
   margin: 20px;
-  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */

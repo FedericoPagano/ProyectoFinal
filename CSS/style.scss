@@ -181,9 +181,15 @@ nav div a:hover {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    iframe{
+        width: 260px;
+        height: 146px;
+    }
 }
-}
-
 
 .cuadro__servicios{
     @include section;
@@ -195,13 +201,11 @@ nav div a:hover {
     letter-spacing: 3px;
 }
 
-
 .recetas__diseno{
     background-color: rgb(90, 109, 78);
     border: 1px solid;
     border-radius: 10px;
     margin: 10px;
-
 h2{
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
@@ -220,12 +224,10 @@ div{
     display: flex;
     flex-direction: row;
     display:inline-block;
-    align-items: center;
 }
 iframe{
     border: 1px solid ;
     border-radius: 10px;
     margin: 20px;
-    height: 100%;
 }
 }
