@@ -189,6 +189,14 @@ nav div a:hover {
         width: 260px;
         height: 146px;
     }
+    article{
+        width: 260px;
+        height: 146px;
+    }
+    .responsive-no{
+        display: none;
+    }
+
 }
 
 .cuadro__servicios{
@@ -282,11 +290,12 @@ div{
 }
 article{
     background-color: $backsection ;
-    width: 560px;
-    height: 315px;
+    width: 260px;
+    height: 146px;
     border: 1px solid ;
     border-radius: 10px;
     margin: 20px;
+    display: flex;
     display: inline-block;
 }
 
