@@ -250,4 +250,49 @@ iframe{
     left: 0;
     width: 100%;
     height: 100%;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.container__info{
+    background-color: rgb(90, 109, 78);
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 2em;
+    margin: 20px;
+}
+p{
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 1em;
+    margin: 20px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    display:inline-block;
+}
+article{
+    background-color: $backsection ;
+    width: 560px;
+    height: 315px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+iframe{
+    border: 1px solid ;
+    border-radius: 10px;
+    margin: 20px;
+}
 }
